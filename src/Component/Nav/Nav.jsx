@@ -17,7 +17,7 @@ const Nav = () => {
         <ul className='desktopmenu'>
             <Link to="Home" smooth={true} activeClass='active' spy={true} duration={500}><li>Home</li></Link>
             <Link to="About" smooth={true} activeClass='active' spy={true} duration={500}><li>About</li></Link>
-            <Link to="Projects" smooth={true} activeClass='active' spy={true} duration={500}><li>Projects</li></Link>
+            <Link to="projects" smooth={true} activeClass='active' spy={true} duration={500}><li>Projects</li></Link>
             <Link to="Contact" smooth={true} activeClass='active' spy={true} duration={500}><li>Contact</li></Link>
         </ul>
         <div className="hamburger" ref={menu} onClick={toggleMenu}>
@@ -29,7 +29,7 @@ const Nav = () => {
         <ul className='mobilemenu' ref={mobile}>
             <Link to="Home" smooth={true} activeClass='active' spy={true} duration={500} onClick={toggleMenu}><li>Home</li></Link>
             <Link to="About" smooth={true} activeClass='active' spy={true} duration={500} onClick={toggleMenu}><li>About</li></Link>
-            <Link to="Projects" smooth={true} activeClass='active' spy={true} duration={500} onClick={toggleMenu}><li>Projects</li></Link>
+            <Link to="projects" smooth={true} activeClass='active' spy={true} duration={500} onClick={toggleMenu}><li>Projects</li></Link>
             <Link to="Contact" smooth={true} activeClass='active' spy={true} duration={500} onClick={toggleMenu}><li>Contact</li></Link>
         </ul>
     </nav>

@@ -13,7 +13,7 @@ nav{
 }
 
 /* Links */
-ul{
+ nav ul{
     display: flex;
     align-items: center;
     gap: 40px;
@@ -52,6 +52,7 @@ nav h1{
     gap: 8px;
     display: none;
     cursor: pointer;
+    margin: 20px;
 }
 .ham{
     width: 30px;
